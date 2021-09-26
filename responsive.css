@@ -1,0 +1,303 @@
+
+
+/* responsive 1600px start */
+/* responsive 1600px end */
+
+
+.header-section .menu{
+    position: relative;
+}
+.header-section .menu span {
+	color: #6278DF;
+	font-size: 40px;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	display: none;
+}
+
+/* responsive 1400px start */
+@media (max-width:1400px){
+    
+}
+/* responsive 1400px end */
+
+/* responsive 1200px start */
+@media (max-width:1200px){
+    .content-section .video-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .content-section .video-text h2 {
+        font-size: 28px;
+        margin-top: -7px;
+    }
+    .service-items {
+        padding: 21px 20px;
+    }
+    .service-items span {
+        height: 149px;
+        width: 67px;
+        margin-left: 10px;
+    }
+    .service-items h2 {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        font-size: 19px;
+    }
+    .service-items p {
+        font-size: 16px;
+    }
+
+}
+/* responsive 1200px end */
+
+/* responsive 992px start */
+@media (max-width:992px){
+    .header-section .menu ul li a {
+        padding: 0px 4px;
+    }
+    .header-section .menu ul li {
+      line-height: 50px;
+    }
+    .header-section .logo span {
+        font-weight: 500;
+        font-size: 12px;
+        position: relative;
+        top: 0px;
+        left: 7px;
+    }
+    .header-section .header-btn button {
+        font-weight: 500;
+        display: inline-block !important;
+        padding: 0 7px;
+    }
+    .header-section .logo{
+        text-align: center;
+    }
+    .header-section .logo img {
+        max-width: 50px;
+        display: inline-block;
+    }
+    .header-section .logo span {
+        font-weight: 500;
+        font-size: 25px;
+        position: relative;
+        top: 5px;
+        left: 7px;
+    }
+    .content-section .video-text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .content-section .video-text h2 {
+        font-size: 19px;
+        margin-top: -7px;
+    }
+    .pricing-section .p-content {
+        padding: 24px 10px;
+        height: 245px;
+    }
+    .pricing-section .pricing-rate ul {
+        padding: 17px 20px;
+        margin-bottom: 0;
+    }
+    .pricing-section .pricing-rate {
+        padding-bottom: 26px;
+    }
+    .team-section .team-person {
+        width: 47%;
+        margin-right: 3%;
+        margin-bottom: 20px;
+    }
+}
+/* responsive 992px end */
+
+/* responsive 768px start */
+@media (max-width:768px) {
+    .header-section .logo {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .header-section .logo img {
+        max-width: 50px;
+        display: inline-block;
+    }
+    .header-section .logo span {
+        font-weight: 500;
+        position: relative;
+        top: 4px;
+        left: 6px;
+        font-size: 25px;
+    }
+    .banner-section .banner .banner-title {
+        padding: 140px 0;
+    }
+    .banner .banner-title p {
+        font-size: 22px;
+        margin-top: 50px;
+    }
+    .banner .banner-title h2 {
+        margin: 16px 0;
+        font-size: 44px;
+    }
+    .banner .banner-title button {
+        padding: 10px 20px;
+        font-size: 15px;      
+    }
+    .content-section .video-text {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+    .service-items span {
+        height: 109px;
+    }
+    .service-section .service-title h2 {
+        font-weight: 500;
+        font-size: 23px;
+    }
+    .service-section .service-title {
+        padding: 20px 0;
+    }
+    .pricing-section .p-title h2 {
+        font-size: 30px;
+    }
+    .pricing-section .p-title p {
+        font-size: 18px;
+    }
+    .pricing-section .pricing-rate {
+        padding-bottom: 27px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .pricing-section .p-content {
+        height: 230px;
+    }
+    .team-section h2 {
+        font-size: 29px;
+    }
+    .team-section .team-title {
+        padding: 40px 0;
+    }
+    .newsletter .news-title h2 {
+        font-size: 34px;
+    }
+
+}
+/* responsive 768px end */
+
+/* responsive 576px start */
+@media (max-width:576px){
+    .header-section .menu ul {
+        margin: 0;
+        display: none !important;
+    }
+    .header-section .menu span{
+        display: block;
+    }
+    .banner-section .banner .banner-title {
+        padding: 100px 0;
+    }
+    .banner .banner-title p {
+        font-size: 18px;
+        margin-top: 76px;
+    }
+    .banner .banner-title h2 {
+        margin: 8px 0;
+        font-size: 32px;
+    }
+    .banner .banner-title button {
+        padding: 5px 12px;
+        font-size: 13px;
+        margin: 0 3px;
+    }
+    .content-section .video-text p {
+        font-size: 12px;
+        line-height: 19px;
+        margin-bottom: -36px;
+    }
+    .content-section .video-text h2 {
+        font-size: 16px;
+        margin-top: -7px;
+    }
+    .content-section .video-text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .video-content {
+        margin-top: -15px;
+    }
+    .service-items span {
+        height: 130px;
+        font-size: 37px;
+    }
+    .service-items h2 {
+        font-size: 17px;
+    }
+    .service-items p {
+        font-size: 14px;
+    }
+    .pricing-section .p-title h2 {
+        font-size: 22px;
+    }
+    .pricing-section .p-title p {
+        font-size: 14px;
+    }
+    .team-section h2 {
+        font-size: 20px;
+    }
+    .team-section .team-title {
+        padding: 30px;
+    }
+    .team-section .team-person {
+        width: 100%;
+    }
+    .team-section .team-person .team-name {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .newsletter .news-title p {
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+    .newsletter .news-title h2 {
+        font-size: 26px;
+    }
+    .newsletter form input {
+        padding: 7px 3px 7px 10px;
+    }
+    .newsletter form button {
+        padding: 6px 18px;
+        font-weight: 500;
+    }
+    .newsletter {
+        padding-bottom: 43px;
+    }
+
+}
+/* responsive 576px end */
+
+
+
+
+/* responsive 400px start */
+
+@media (max-width:400px) {
+    .newsletter {
+        padding-bottom: 35px;
+    }
+    .newsletter .news-title {
+        padding: 12px 0;
+    }
+    .newsletter .news-title p {
+        margin-bottom: 4px;
+        font-size: 12px;
+    }
+    .newsletter .news-title h2 {
+        font-size: 21px;
+    }
+    .newsletter form input {
+        margin-bottom: 15px;
+    }
+}
+/* responsive 400px end */
