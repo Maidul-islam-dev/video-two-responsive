@@ -41,6 +41,7 @@ body {
 }
 .header-section .menu {
     text-align: left;
+    position: relative;
 }
 .header-section .menu ul {
     margin: 0;
